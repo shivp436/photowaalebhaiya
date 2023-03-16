@@ -1,9 +1,4 @@
-/**
-* Template Name: PhotoFolio - v1.2.0
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -77,22 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
   });
-
-  /**
-   * Scroll top button
-   */
-  const scrollTop = document.querySelector('.scroll-top');
-  if (scrollTop) {
-    const togglescrollTop = function() {
-      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
-    }
-    window.addEventListener('load', togglescrollTop);
-    document.addEventListener('scroll', togglescrollTop);
-    scrollTop.addEventListener('click', window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    }));
-  }
 
   /**
    * Initiate glightbox
